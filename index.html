@@ -21,185 +21,160 @@
     <script src="https://kit.fontawesome.com/514e68a2ba.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <nav class="navbar">
+      <!-- Navigation -->
+      <ul id="mySidenav" class="sidenav">
+        <li class="nav-link"><a href="javascript:void(0)" class="closebtn" onclick="toggleNavbar()">&times;</a></li>
+        <li class="nav-link"><a href="#home">Home</a></li>
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#projects">Projects</a></li>
+        <li class="nav-link"><a href="#experience">Experiences</a></li>
+        <li class="nav-link"><a href="#skills">Skills</a></li>
+        <li class="nav-link"><a href="#testimonials">Testimonials</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="toggleNavbar()">&#9776; </span>
+    </nav>
+
+
     <!-- Landing section -->
     <section class="landing" id="home">
-      <!-- Navigation -->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experiences</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="open-left">
-      <span &#9776; style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776;</span>
-    </div>
-    
-      <div class="landing-content"> <!--Main box--> 
-        <h2 class="landing-h2">Hello. My name is </h2>
-        <h1 class="landing-name">Retsepile <br> Koloko</h1>
-        <p class="landing-info">A Junior Frontend and Backend developer</p>
-        <div class="links">
-          <a href="https://www.facebook.com/profile.php?id=100009095089791">Facebook</a>
-                <a href="https://github.com/retsepile">Github</a>
-                <a href="https://wa.me/27642346749">Whatsapp</a>
-              </div> 
-            </div>
-            <img class="landing-image" src="./C8 Apr21 Retsepile Koloko (2).jpg" alt="picture">
-      </section>
+    <div class="landing-content"> <!--Main box--> 
+      <h2 class="landing-h2">Hello. My name is </h2>
+      <h1 class="landing-name">Retsepile <br> Koloko</h1>
+      <p class="landing-info">A Junior Frontend and Backend developer</p>
+      <div class="links">
+        <a href="https://www.facebook.com/profile.php?id=100009095089791">Facebook</a>
+              <a href="https://github.com/retsepile">Github</a>
+              <a href="https://wa.me/27642346749">Whatsapp</a>
+            </div> 
+          </div>
+          <img class="landing-image" src="./C8 Apr21 Retsepile Koloko (2).jpg" alt="picture">
+    </section>
+
+
     <!-- About Section -->
-    <header class='masthead'>
-      <p class='masthead-intro'>ABOUT ME</p>
-      <h1 class='masthead-heading'>Retsepile Koloko</h1>
-    </header>
-    <section class="introduction-section">
-        <h1>Introduction</h1>
-        <p>I am soon to be web developer.</p>
-        <p>I love the internet, technology, and building beautiful things.</p>
-    </section>
-    <section class="location-section">
-        <h1>Where I'm From</h1>
-        <p>I'm originally from Eastern Cape, Lady Grey. </p>
-    </section>
-    <section class="questions-section">
-        <h1>More About Me</h1>
-        <h2>What are your favorite hobbies?</h2>
-        <p>My favorite hobby is reading , hiking and modelling.</p>
-        <h2>What's your dream job?</h2>
-        <p>My dream job is to an Actress except I would like to be building software as well.</p>
-        <h2>Why do you want to be a web developer?</h2>
-        <p>Because programming is awesome and programming for the internet is even more awesome.</p>
-    </section>
+    <div id="about">
+      <header>
+        <h2>Retsepile Koloko </h2>
+      </header>
+      
+      <section>
+        <h2 class="about">ABOUT ME</h2>
+        
+        <article>
+          <h2> Introduction </h2>
+          <p>
+            I am a web developer. 
+            I love the internet, technology, and building beautiful things.
+    
+          </p>   
+          <h2>Where I'm From</h2>
+           <p>  I'm originally from Eastern Cape, Lady Grey. </p>
+       
+            <h23>More About Me</h23>
+           <h3> What are my favorite hobbies?</h3>
+          My favorite hobby is reading , hiking and modelling.
+            <h3>What's my dream job?</h3>
+            My dream job is to an Actress except I would like to be building software as well.
+            Why do you want to be a web developer?
+            Because programming is awesome and programming for the internet is even more awesome. 
+          </p>
+
+        
+        </article>
+      </section>
+    </div>
 
 
     <!-- Projects-->
-    <section id="projects" >
-      <h2 class="project-heading">My Projects</h2>
-      <div class="grid-container">
-        <div class=>
-          <div class="grid-item">
-            <img src="./contact-form.png" alt="" style="width: 20%;">
-            <h2>Contact Form</h2>
-            <p>My first HTML&CSS exercise. Learnt to make a contact-form </p>
-            <button class="button">
-              <a href="https://karabo-form.netlify.app" target="blank" >Live</a>
-            </button>
-            <button class="button">
-              <a href="https://github.com/retsepile/karabo-s-contact-form" target="blank" >Github</a>
-            </button>
+    <div id="projects" >
+      <h1 class="project-heading">PROJECTS</h1>
+      <div class="gallery-content">
+          <div class="zoomout">
+              <h1>CONTACT FORM</h1>
+              <img src="./contact-form.png"/>
+              <button class="button">
+                  <a href="https://karabo-form.netlify.app" target="blank" >Live</a>
+                </button>
+                <button class="button">
+                  <a href="https://github.com/retsepile/karabo-s-contact-form" target="blank" >Github</a>
+                </button>
           </div>
-        </div>
-        <div class=>
-          <div class="grid-item">
-            <img src="./timeline.png" alt="" style="width: 25%;">
-            <h2> Timeline</h2>
-            <p>Made a timeline to capture the experience in my life</p>
-            <button class="button">
-              <a href="https://romantic-bhaskara-cccd30.netlify.app" target="blank" >Live</a>
-            </button>
-            <button class="button">
-              <a href="https://github.com/retsepile/Timeline" target="blank" >Github</a>
-            </button>
-          </div>
-        </div>
-        <div class=>
-          <div class="grid-item">
-            <img src="./project-cards.png" alt="" style="width:25%;">
-            <h2>Project Cards</h2>
-            <p>Capture the moments of my HTML%CSS in one go.</p>
-            <button class="button">
-              <a href="https://stoic-gates-643b33.netlify.app" target="blank" >Live</a>
-            </button>
-            <button class="button">
-              <a href="https://github.com/retsepile/project-cards" target="blank" >Github</a>
-            </button>
-          </div>
-        </div>
-        <div class=>
-          <div class="grid-item">
-            <img src="./testimonial.png" alt="" style="width: 25%;">
-            <h2>Testimonial</h2>
-            <p>A sweet review about myself from my Colleagues</p>
-            <button class="button">
-              <a href="https://boring-euler-5f90f3.netlify.app" target="blank" >Live</a>
-            </button>
-            <button class="button">
-              <a href="https://github.com/retsepile/testimonials" target="blank" >Github</a>
-            </button>
-          </div>
-        </div>
-        <div class="grid-item">
-          <img src="./temperature.png" alt="" style="width: 20%;">
-          <h2>Temperature Converter</h2>
-          <p>If ever you want to check the temperature in Fahrenheit and Celsius this is your go too place</p>
+
+            <div class="zoomout">
+                <h1>CURRENCY CONVERTER</h1>
+              <img src="./currency-converter.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/python-currency-converter" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>LOTTO TKINTER</h1>
+              <img src="./lotto.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/PYTHON-LOTTO" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>PROJECT CARDS</h1>
+              <img src="./project-cards.png"  />
+              <button class="button">
+                  <a href="https://stoic-gates-643b33.netlify.app" target="blank" >Live</a>
+                </button>
+                <button class="button">
+                  <a href="https://github.com/retsepile/project-cards" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>TESTIMONIAL</h1>
+              <img src="./testimonial.png"  />
+              <button class="button">
+                  <a href="https://boring-euler-5f90f3.netlify.app" target="blank" >Live</a>
+                </button>
+                <button class="button">
+                  <a href="https://github.com/retsepile/testimonials" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>TIMELINE</h1>
+              <img src="./timeline.png"  />
+              <button class="button"><a href="https://romantic-bhaskara-cccd30.netlify.app" target="blank" >Live</a></button>   
           <button class="button">
-            <a href="https://github.com/retsepile/python-temperature-converter" target="blank" >Github</a>
+            <a href="https://github.com/retsepile/Timeline" target="blank" >Github</a>
           </button>
-        </div>
-        <div>
-        <div class="grid-item">
-          <img src="./mysql.png" alt="" style="width: 20%;">
-          <h2>MYSQL</h2>
-          <p>Databases at it’s best</p>
-          <button class="button">
-            <a href="https://github.com/retsepile/MYSQL-end-of-module" target="blank" >Github</a>
-          </button>
-        </div>
+            </div>
+            <div class="zoomout">
+              <h1>BMI TKINTER</h1>
+              <img src="./BMI.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/python-BMI" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>POKEDEX</h1>
+              <img src="./pokeman.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/pikachurl" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+                <h1>MYSQL</h1>
+              <img src="./mysql.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/MYSQL-end-of-module" target="blank" >Github</a>
+                </button>
+            </div>
+            <div class="zoomout">
+              <h1>SICK CLASS TKINTER</h1>
+              <img src="./sick-class.png"  />
+              <button class="button">
+                  <a href="https://github.com/retsepile/python-sick-class" target="blank" >Github</a>
+                </button>
+            </div>
+     
       </div>
-      <div class=>
-        <div class="grid-item">
-          <img src="./BMI.png" alt="" style="width: 20%;">
-          <h2>BMI</h2>
-          <p>Wanna check you Body Mass Index and know if you healthy or not. Came this way</p>
-          <button class="button">
-            <a href="https://github.com/retsepile/python-BMI" target="blank" >Github</a>
-          </button>
-        </div>
-      </div>
-      <div class=>
-        <div class="grid-item">
-          <img src="./lotto.png" alt="" style="width: 20%;">
-          <h2>LOTTO</h2>
-          <p>Try your chanaces with todays lotto draw</p>
-          <button class="button">
-            <a href="https://github.com/retsepile/PYTHON-LOTTO" target="blank" >Github</a>
-          </button>
-        </div>
-      </div>
-      <div class=>
-        <div class="grid-item">
-          <img src="./sick-class.png" alt="" style="width: 20%;">
-          <h2>Sick-class</h2>
-          <p></p>
-          <button class="button">
-            <a href="https://github.com/retsepile/python-sick-class" target="blank" >Github</a>
-          </button>
-        </div>
-      </div>
-      <div class=>
-        <div class="grid-item">
-          <img src="./currency-converter.png" alt="" style="width: 20%;">
-                <h2>Currency-converter</h2>
-          <p></p>
-          <button class="button">
-            <a href="https://github.com/retsepile/python-currency-converter" target="blank" >Github</a>
-          </button>
-        </div>
-      </div>
-      <div class=>
-        <div class="grid-item">
-          <img src="./pokeman.png" alt="" style="width: 25%;">
-          <h2>Pokedex</h2>
-          <p>Pokeman</p>
-          <button class="button">
-            <a href="https://github.com/retsepile/pikachurl" target="blank" >Github</a>
-          </button>
-        </div>
-      </div>
-      </section>
       
       
     <!-- Experience -->
@@ -242,13 +217,20 @@
       <div class="light-grey">
         <div class="grey" style="height:24px;width:50%" data-aos="zoom-in">Python</div>
       </div>
+
+      <div class="light-grey">
+        <div class="grey" style="height:24px;width:55%" data-aos="zoom-in">Flask</div>
+      </div>
+      <div class="light-grey">
+        <div class="grey" style="height:24px;width:45%" data-aos="zoom-in">MYSQL</div>
+      </div>
       </div>
     <!-- Testimonial -->
     <div id="testimonials">
       <h1 class="testimonial-heading">My Testimonials</h1>
       <div class="owl-carousel">
         <div class="content">
-          <img src="/godwin-dzvapatsra.jpg" alt="" style="width: 90px"  class="image" />
+          <img src="./godwin-dzvapatsra.jpg" alt="" style="width: 90px"  class="image" />
           <div class="content-container">
             <h2>Godwin Dzvapatsra</h2>
             <h3>Head of Curriculum and Learning</h3>
@@ -256,8 +238,8 @@
           </div>
         </div>
         <div class="content">
-          <img src="/thapelo-tsotetsi.jpg" alt="" style="width: 100px" class="image"/>
-          <div class="content-container1">
+          <img src="./thapelo-tsotetsi.jpg" alt="" style="width: 100px" class="image"/>
+          <div class="content-container">
             <h2>Thapelo Tsotesti</h2>
             <h3>Coding Lecture</h3>
             <q>
@@ -266,42 +248,42 @@
           </div>
         </div>
         <div class="content">
-          <img src="/2021-team-jason-wandrag.jpg" alt="" style="width: 100px" class="image" />
-          <div class="content-contain">
+          <img src="./2021-team-jason-wandrag.jpg" alt="" style="width: 100px" class="image" />
+          <div class="content-container">
             <h2>Jason Wandrag</h2>
             <h3>Coding Lecture</h3>
             <q>Retsepile is a vibrant and strong lady who has shown to be hard working and curious. She improves every day and I feel that she will go far.</q>
           </div>
         </div>
         <div class="content">
-            <img src="/C8 Apr21 Zoe Strachan (3).JPG" alt="" style="width: 100px" class="image" />
-            <div class="content-container3">
-              <h2>Zoe Strachan</h2>
-              <h3>Colleague</h3>
-              <q>Karabo is hard working and dedicated, she always gives her utmost regardless of the situation and when she's down she bounces right back with even more vigor and a smile. There's no one quite like a fighter with an attitude of never giving up, an invaluable quality to possess.</q>
-            </div>
+          <img src="./C8 Apr21 Zoe Strachan (3).JPG" alt="" style="width: 100px" class="image" />
+          <div class="content-container">
+           <h2>Zoe Strachan</h2>
+            <h3>Colleague</h3>
+            <q>Karabo is hard working and dedicated, she always gives her utmost regardless of the situation and when she's down she bounces right back with even more vigor and a smile. There's no one quite like a fighter with an attitude of never giving up, an invaluable quality to possess.</q>
           </div>
-          <div class="content">
-              <img src="/C8 Apr21 Thandokazi Nkohla (1).JPG" alt="" style="width: 100px"  class="image"/>
-              <div class="content-container4">
-                <h2>Thandokazi</h2>
-                <h3>Colleague</h3>
-                <q>Re has a great personality and is hardworking. She is a reliable, trustworthy and can work great in a team. She is responsible and patient.</q>
-              </div>
-            </div>
-            <div class="content">
-                <img src="/C8 Apr21 Masithembe Ndabeni (3).JPG" alt="" style="width: 100px" class="image"/>
-                <div class="content-container5">
-                  <h2>Masimthembe Ndabeni</h2>
-                  <h3>Colleague</h3>
-                  <q>Re is a very hard working individual and is always eager to leaner new things. She is dedicated to her work and adjusts quckier in a new enviroment. She has a good heart and easily approchable.</q>
-                </div>
-              </div>
+        </div>   
+        <div class="content">
+          <img src="./C8 Apr21 Thandokazi Nkohla (1).JPG" alt="" style="width: 100px" class="image" />
+          <div class="content-container">
+           <h2>Thandokazi Nkohla</h2>
+            <h3>Colleague</h3>
+            <q>Re has a great personality and is hardworking. She is a reliable, trustworthy and can work great in a team. She is responsible and patient.</q>
           </div>
+        </div>  
+        <div class="content">
+          <img src="./C8 Apr21 Masithembe Ndabeni (3).JPG" alt="" style="width: 100px" class="image" />
+          <div class="content-container5">
+           <h2>Masithembe Ndabeni</h2>
+            <h3>Colleague</h3>
+            <q>Re is a very hard working individual and is always eager to leaner new things. She is dedicated to her work and adjusts quckier in a new enviroment. She has a good heart and easily approchable.</q>
           </div>
-        </div>
+        </div>  
+        
       </div>
     </div>
+  </div>
+  <!-- end of testimonial -->
 
     <!-- Contact -->
 <div>
@@ -341,53 +323,49 @@
               
    
      
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- navbar javascript -->
 
 <script>
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+  function toggleNavbar() {
+    document.getElementsByClassName("sidenav")[0].classList.toggle("active");
   }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-  </script>
+</script>
+<!-- Owl carousel styles -->
+ <script
+ src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+ integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+ crossorigin="anonymous"></script>
+ <script
+ src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+ integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+ crossorigin="anonymous"></script>
 
-<script
-src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-crossorigin="anonymous"
-></script>
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-crossorigin="anonymous"
-></script>
-
-<script>
-  $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          items: 1,
-          margin: 50,
-          loop: true,
-          stagePadding: 100,
-          dots: false,
-          autoplay: true,
-          responsive: {
-            0: {
-              margin: 0,
-              stagePadding: 0,
-            },
-            500: {
-              margin: 10,
-              stagePadding: 10,
-            },
-          },
-        });
+ <script>
+ $(document).ready(function () {
+   $(".owl-carousel").owlCarousel({
+     items: 1,
+     margin: 20,
+     loop: true,
+     stagePadding: 100,
+     dots: false,
+     autoplay: true,
+     responsive: {
+       0: {
+         margin: 0,
+         stagePadding: 0,
+        },
+        500: {
+          margin: 10,
+          stagePadding: 10,
+        },
+      },
       });
+    });
 </script>
 
   </body>
